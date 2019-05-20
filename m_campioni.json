@@ -1,0 +1,28 @@
+[
+  {
+        "name": "id",
+        "label": "ID",
+        "type": "text",
+        "readonly": true,
+        "disabled": true
+    },
+  {
+        "name": "brebe",
+        "label": "Breve",
+        "type": "select",
+        "id_from_tb": "test__bibliografia"
+    },
+  {
+        "name": "nome",
+        "label": "Nome US",
+        "type": "text",
+        "check": [
+          "no_dupl"
+        ]
+    },
+  {
+        "name": "pp",
+        "label": "pp",
+        "type": "text"
+    }
+]

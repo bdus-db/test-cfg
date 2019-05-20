@@ -1,0 +1,15 @@
+[
+    {
+        "name": "id",
+        "label": "ID",
+        "type": "text",
+        "readonly": "1",
+        "hide": "1"
+    },
+    {
+        "name": "geometry",
+        "label": "Geometria WKT",
+        "type": "text",
+        "help": "https://it.wikipedia.org/wiki/Well-Known_Text"
+    }
+]

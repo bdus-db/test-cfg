@@ -1,0 +1,63 @@
+{
+    "tables": [
+        {
+            "name": "test__siti",
+            "label": "Siti",
+            "order": "nome",
+            "id_field": "nome",
+            "preview": [
+                "nome",
+                "tipologia",
+                "cronologia"
+            ],
+            "plugin": [
+                "test__m_biblio"
+            ]
+        },
+        {
+            "name": "test__us",
+            "label": "Unità stratigrafiche",
+            "order": "nome",
+            "id_field": "nome",
+            "preview": [
+                "nome",
+                "tipo"
+            ],
+            "plugin": [
+                "test__m_campioni"
+            ]        },
+        {
+            "name": "test__bibliografia",
+            "label": "Bibliografia",
+            "order": "breve",
+            "id_field": "breve",
+            "preview": [
+                "breve",
+                "autori",
+                "anno"
+            ]
+        },
+        {
+            "name": "test__files",
+            "label": "Allegati",
+            "order": "id",
+            "id_field": "id",
+            "preview": [
+                "id",
+                "filename",
+                "ext",
+                "description"
+            ]
+        },
+        {
+            "name": "test__m_biblio",
+            "label": "Bibliografia",
+            "is_plugin": "1"
+        },
+        {
+            "name": "test__m_campioni",
+            "label": "Hands",
+            "is_plugin": "1"
+        }
+      ]
+}

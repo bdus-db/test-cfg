@@ -1,0 +1,34 @@
+[
+  {
+        "name": "id",
+        "label": "ID",
+        "type": "text",
+        "readonly": true,
+        "disabled": true
+    },
+  {
+        "name": "nome",
+        "label": "Nome sito",
+        "type": "text",
+        "check": [
+          "no_dupl"
+        ]
+    },
+  {
+        "name": "tipologia",
+        "label": "Tipologia",
+        "type": "select",
+        "vocabulary_set": "tipo_siti"
+    },
+  {
+        "name": "cronologia",
+        "label": "Cronologia",
+        "type": "multi_select",
+        "vocabulary_set": "crono_siti"
+    },
+  {
+        "name": "descrizione",
+        "label": "Descrizione",
+        "type": "long_text"
+    }
+]

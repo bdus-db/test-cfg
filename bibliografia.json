@@ -1,0 +1,29 @@
+[
+  {
+        "name": "id",
+        "label": "ID",
+        "type": "text",
+        "readonly": true,
+        "disabled": true
+    },
+  {
+        "name": "breve",
+        "label": "Breve",
+        "type": "text"
+    },
+  {
+        "name": "autori",
+        "label": "Autori",
+        "type": "text"
+    },
+  {
+        "name": "anno",
+        "label": "Anno",
+        "type": "text"
+    },
+  {
+        "name": "descrizione",
+        "label": "Descrizione",
+        "type": "long_text"
+    }
+]
