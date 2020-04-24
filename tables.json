@@ -25,7 +25,8 @@
             ],
             "plugin": [
                 "test__m_campioni"
-            ]        },
+            ]
+        },
         {
             "name": "test__bibliografia",
             "label": "Bibliografia",
@@ -56,7 +57,7 @@
         },
         {
             "name": "test__m_campioni",
-            "label": "Hands",
+            "label": "Campioni",
             "is_plugin": "1"
         }
       ]
